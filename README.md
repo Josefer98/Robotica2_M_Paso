@@ -28,7 +28,7 @@
 El esquema muestra cómo la laptop envía comandos al tópico "casa/motor", y la Raspberry Pi se suscribe a ese tópico recibe los comandos y controla el motor. 
 
 <p>
-  <img src="files_/esquema.png" alt="conecciones" width="700" height="500"/>
+  <img src="files_/Esquemapaso.png" alt="conecciones" width="700" height="500"/>
 </p>
 
 ## 🚀Para armado, instalación y ejecución de codigo
@@ -68,7 +68,7 @@ copiar el codigo de suscriptor en un entorno en la Raspberry Pi 4
 - IN4 → GPIO 22
   
   <p>
-  <img src="files_/coneciones.png" alt="conecciones" width="700" height="500"/>
+  <img src="files_/circuito.png" alt="conecciones" width="700" height="500"/>
   </p>
   
 ## 🚀 Cómo ejecutar
@@ -78,6 +78,9 @@ Guarda el siguiente código como subscribe.py y ejecútalo:
 python subscribe.py
 ```
 Esto suscribe a la Raspberry al tópico "casa/motor" y controla el motor paso a paso.
+<p>
+  <img src="files_/publicacom.png" alt="sucrib" width="700" height="500"/>
+  </p>
 ### 💻En la Laptop (Publicador)
 Asegúrate de que la IP del broker en publish.py sea la IP local de tu Raspberry Pi:
 ```bash
@@ -108,5 +111,5 @@ Comando a enviar: SALIR → Cierra el programa
   
 # 🎥Demostracion de funcionamineto
 
-![Public](files_/public.gif) ![Suscrib](files_/suscrib.gif)
+![Public](files_/public.gif) ![Suscrib](files_/subscrip.gif)
 
