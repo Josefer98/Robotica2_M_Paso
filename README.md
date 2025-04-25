@@ -81,6 +81,7 @@ Esto suscribe a la Raspberry al tópico "casa/motor" y controla el motor paso a 
 <p>
   <img src="files_/publicacom.png" alt="sucrib" width="700" height="500"/>
   </p>
+  
 ### 💻En la Laptop (Publicador)
 Asegúrate de que la IP del broker en publish.py sea la IP local de tu Raspberry Pi:
 ```bash
